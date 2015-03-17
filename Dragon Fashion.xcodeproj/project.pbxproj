@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB8222A1AB89DEA00BA6243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB822291AB89DEA00BA6243 /* main.m */; };
+		3EB8222D1AB89DEA00BA6243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */; };
+		3EB822301AB89DEA00BA6243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8222F1AB89DEA00BA6243 /* ViewController.m */; };
+		3EB822331AB89DEA00BA6243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822311AB89DEA00BA6243 /* Main.storyboard */; };
+		3EB822351AB89DEA00BA6243 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822341AB89DEA00BA6243 /* Images.xcassets */; };
+		3EB822381AB89DEA00BA6243 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822361AB89DEA00BA6243 /* LaunchScreen.xib */; };
+		3EB822441AB89DEA00BA6243 /* Dragon_FashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB822431AB89DEA00BA6243 /* Dragon_FashionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB8223E1AB89DEA00BA6243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB8221C1AB89DEA00BA6243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB822231AB89DEA00BA6243;
+			remoteInfo = "Dragon Fashion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB822241AB89DEA00BA6243 /* Dragon Fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragon Fashion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB822281AB89DEA00BA6243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB822291AB89DEA00BA6243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB8222B1AB89DEA00BA6243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EB8222E1AB89DEA00BA6243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EB8222F1AB89DEA00BA6243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB822321AB89DEA00BA6243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EB822341AB89DEA00BA6243 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EB822371AB89DEA00BA6243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3EB8223D1AB89DEA00BA6243 /* Dragon FashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon FashionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB822421AB89DEA00BA6243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB822431AB89DEA00BA6243 /* Dragon_FashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dragon_FashionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB822211AB89DEA00BA6243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB8223A1AB89DEA00BA6243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB8221B1AB89DEA00BA6243 = {
+			isa = PBXGroup;
+			children = (
+				3EB822261AB89DEA00BA6243 /* Dragon Fashion */,
+				3EB822401AB89DEA00BA6243 /* Dragon FashionTests */,
+				3EB822251AB89DEA00BA6243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB822251AB89DEA00BA6243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB822241AB89DEA00BA6243 /* Dragon Fashion.app */,
+				3EB8223D1AB89DEA00BA6243 /* Dragon FashionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB822261AB89DEA00BA6243 /* Dragon Fashion */ = {
+			isa = PBXGroup;
+			children = (
+				3EB8222B1AB89DEA00BA6243 /* AppDelegate.h */,
+				3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */,
+				3EB8222E1AB89DEA00BA6243 /* ViewController.h */,
+				3EB8222F1AB89DEA00BA6243 /* ViewController.m */,
+				3EB822311AB89DEA00BA6243 /* Main.storyboard */,
+				3EB822341AB89DEA00BA6243 /* Images.xcassets */,
+				3EB822361AB89DEA00BA6243 /* LaunchScreen.xib */,
+				3EB822271AB89DEA00BA6243 /* Supporting Files */,
+			);
+			path = "Dragon Fashion";
+			sourceTree = "<group>";
+		};
+		3EB822271AB89DEA00BA6243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB822281AB89DEA00BA6243 /* Info.plist */,
+				3EB822291AB89DEA00BA6243 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EB822401AB89DEA00BA6243 /* Dragon FashionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB822431AB89DEA00BA6243 /* Dragon_FashionTests.m */,
+				3EB822411AB89DEA00BA6243 /* Supporting Files */,
+			);
+			path = "Dragon FashionTests";
+			sourceTree = "<group>";
+		};
+		3EB822411AB89DEA00BA6243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB822421AB89DEA00BA6243 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB822231AB89DEA00BA6243 /* Dragon Fashion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB822471AB89DEA00BA6243 /* Build configuration list for PBXNativeTarget "Dragon Fashion" */;
+			buildPhases = (
+				3EB822201AB89DEA00BA6243 /* Sources */,
+				3EB822211AB89DEA00BA6243 /* Frameworks */,
+				3EB822221AB89DEA00BA6243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dragon Fashion";
+			productName = "Dragon Fashion";
+			productReference = 3EB822241AB89DEA00BA6243 /* Dragon Fashion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB8223C1AB89DEA00BA6243 /* Dragon FashionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB8224A1AB89DEA00BA6243 /* Build configuration list for PBXNativeTarget "Dragon FashionTests" */;
+			buildPhases = (
+				3EB822391AB89DEA00BA6243 /* Sources */,
+				3EB8223A1AB89DEA00BA6243 /* Frameworks */,
+				3EB8223B1AB89DEA00BA6243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB8223F1AB89DEA00BA6243 /* PBXTargetDependency */,
+			);
+			name = "Dragon FashionTests";
+			productName = "Dragon FashionTests";
+			productReference = 3EB8223D1AB89DEA00BA6243 /* Dragon FashionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB8221C1AB89DEA00BA6243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					3EB822231AB89DEA00BA6243 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3EB8223C1AB89DEA00BA6243 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3EB822231AB89DEA00BA6243;
+					};
+				};
+			};
+			buildConfigurationList = 3EB8221F1AB89DEA00BA6243 /* Build configuration list for PBXProject "Dragon Fashion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB8221B1AB89DEA00BA6243;
+			productRefGroup = 3EB822251AB89DEA00BA6243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB822231AB89DEA00BA6243 /* Dragon Fashion */,
+				3EB8223C1AB89DEA00BA6243 /* Dragon FashionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB822221AB89DEA00BA6243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB822331AB89DEA00BA6243 /* Main.storyboard in Resources */,
+				3EB822381AB89DEA00BA6243 /* LaunchScreen.xib in Resources */,
+				3EB822351AB89DEA00BA6243 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB8223B1AB89DEA00BA6243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB822201AB89DEA00BA6243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB822301AB89DEA00BA6243 /* ViewController.m in Sources */,
+				3EB8222D1AB89DEA00BA6243 /* AppDelegate.m in Sources */,
+				3EB8222A1AB89DEA00BA6243 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB822391AB89DEA00BA6243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB822441AB89DEA00BA6243 /* Dragon_FashionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB8223F1AB89DEA00BA6243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB822231AB89DEA00BA6243 /* Dragon Fashion */;
+			targetProxy = 3EB8223E1AB89DEA00BA6243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EB822311AB89DEA00BA6243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB822321AB89DEA00BA6243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB822361AB89DEA00BA6243 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB822371AB89DEA00BA6243 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB822451AB89DEA00BA6243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB822461AB89DEA00BA6243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB822481AB89DEA00BA6243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dragon Fashion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EB822491AB89DEA00BA6243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dragon Fashion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EB8224B1AB89DEA00BA6243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dragon FashionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragon Fashion.app/Dragon Fashion";
+			};
+			name = Debug;
+		};
+		3EB8224C1AB89DEA00BA6243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dragon FashionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragon Fashion.app/Dragon Fashion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB8221F1AB89DEA00BA6243 /* Build configuration list for PBXProject "Dragon Fashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB822451AB89DEA00BA6243 /* Debug */,
+				3EB822461AB89DEA00BA6243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB822471AB89DEA00BA6243 /* Build configuration list for PBXNativeTarget "Dragon Fashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB822481AB89DEA00BA6243 /* Debug */,
+				3EB822491AB89DEA00BA6243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EB8224A1AB89DEA00BA6243 /* Build configuration list for PBXNativeTarget "Dragon FashionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB8224B1AB89DEA00BA6243 /* Debug */,
+				3EB8224C1AB89DEA00BA6243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB8221C1AB89DEA00BA6243 /* Project object */;
+}
