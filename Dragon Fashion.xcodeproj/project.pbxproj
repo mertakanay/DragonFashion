@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3EB8222A1AB89DEA00BA6243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB822291AB89DEA00BA6243 /* main.m */; };
 		3EB8222D1AB89DEA00BA6243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */; };
-		3EB822301AB89DEA00BA6243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8222F1AB89DEA00BA6243 /* ViewController.m */; };
+		3EB822301AB89DEA00BA6243 /* DragonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8222F1AB89DEA00BA6243 /* DragonListViewController.m */; };
 		3EB822331AB89DEA00BA6243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822311AB89DEA00BA6243 /* Main.storyboard */; };
 		3EB822351AB89DEA00BA6243 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822341AB89DEA00BA6243 /* Images.xcassets */; };
 		3EB822381AB89DEA00BA6243 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB822361AB89DEA00BA6243 /* LaunchScreen.xib */; };
 		3EB822441AB89DEA00BA6243 /* Dragon_FashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB822431AB89DEA00BA6243 /* Dragon_FashionTests.m */; };
+		3EB8224F1AB8A7FF00BA6243 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8224E1AB8A7FF00BA6243 /* Dragon.m */; };
+		3EB822521AB8D1AC00BA6243 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB822511AB8D1AC00BA6243 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		3EB822291AB89DEA00BA6243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EB8222B1AB89DEA00BA6243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EB8222E1AB89DEA00BA6243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EB8222F1AB89DEA00BA6243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB8222E1AB89DEA00BA6243 /* DragonListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonListViewController.h; sourceTree = "<group>"; };
+		3EB8222F1AB89DEA00BA6243 /* DragonListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonListViewController.m; sourceTree = "<group>"; };
 		3EB822321AB89DEA00BA6243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB822341AB89DEA00BA6243 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EB822371AB89DEA00BA6243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3EB8223D1AB89DEA00BA6243 /* Dragon FashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon FashionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB822421AB89DEA00BA6243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB822431AB89DEA00BA6243 /* Dragon_FashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dragon_FashionTests.m; sourceTree = "<group>"; };
+		3EB8224D1AB8A7FF00BA6243 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		3EB8224E1AB8A7FF00BA6243 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		3EB822501AB8D1AC00BA6243 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3EB822511AB8D1AC00BA6243 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				3EB8222B1AB89DEA00BA6243 /* AppDelegate.h */,
 				3EB8222C1AB89DEA00BA6243 /* AppDelegate.m */,
-				3EB8222E1AB89DEA00BA6243 /* ViewController.h */,
-				3EB8222F1AB89DEA00BA6243 /* ViewController.m */,
+				3EB8222E1AB89DEA00BA6243 /* DragonListViewController.h */,
+				3EB8222F1AB89DEA00BA6243 /* DragonListViewController.m */,
+				3EB8224D1AB8A7FF00BA6243 /* Dragon.h */,
+				3EB8224E1AB8A7FF00BA6243 /* Dragon.m */,
+				3EB822501AB8D1AC00BA6243 /* DetailViewController.h */,
+				3EB822511AB8D1AC00BA6243 /* DetailViewController.m */,
 				3EB822311AB89DEA00BA6243 /* Main.storyboard */,
 				3EB822341AB89DEA00BA6243 /* Images.xcassets */,
 				3EB822361AB89DEA00BA6243 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB822301AB89DEA00BA6243 /* ViewController.m in Sources */,
+				3EB822521AB8D1AC00BA6243 /* DetailViewController.m in Sources */,
+				3EB822301AB89DEA00BA6243 /* DragonListViewController.m in Sources */,
 				3EB8222D1AB89DEA00BA6243 /* AppDelegate.m in Sources */,
+				3EB8224F1AB8A7FF00BA6243 /* Dragon.m in Sources */,
 				3EB8222A1AB89DEA00BA6243 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
